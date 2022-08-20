@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <header>
+    <title>FreeCodeCamp Survey</title>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <h1 id=title>FreeCodeCampSurvey</h1>
+
+      <link rel="stylesheet" href="style.css">
+    </header>
+
+    <body>
+        <p id="description"> This freeCodeCamp Survey is made to help me practice on how to build a survey form.</p>
+    </body>
+    <form id="survey-form">
+      <br><label>How did you find out about FreeCodeCamp? (select all that apply)</br></label>
+      <br><input type="checkbox" name='Question' value="friend">From a friend?</input>
+      <input type="checkbox"  name='Question'value="Social">From social media?</input>
+      <input type="checkbox" name='Question' value="Advertisement">Advertisement</input>
+      </br>
+      <br><label>Do you like what you are learning on FreeCodeCamp?<br>
+      <input type='radio' name="Question2" value="Yes">Yes</input>
+      </label>
+      
+      <input type='radio' name="Question2" value="No">No</input>
+      </label>
+      </br>
+
+      <br><label>If you selected  No to the aboved question.<br> What would you like to learn on FreeCodeCamp?<br></label><br><textarea placeholder='please give us feedback on what you whould like to learn on FreeCodeCamp'></textarea>
+      </br>
+      
+      
+     <br> <label id="name-label"> Please enter your first name. <input required id=name type=text placeholder="Enter your first name"></input></label></br>
+     
+      
+     <br><label id="email-label"> Please enter your email address.
+       <input required id="email" type="email" placeholder="Enter your email address"></input>
+       </label></br>
+    
+   <br><label id="number-label"> Please enter your phone number. 
+       <input class='phone' required id="number" type="number" min="1000000" max="100000" placeholder="Enter your phone number">
+        </input>
+      </label>
+    </br>
+      <br><label> Did you find this form helpful ?<select id="dropdown" >
+        <option>Yes</option>
+        <option>No</option>
+      </select></label>
+      </br>
+   
+    <input type='submit'name="submit" id='submit'></input>
+    </form>
+
+
+    
+  </html>

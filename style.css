@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    margin: 0 auto;
+
+  /*background-image: url(https://miro.medium.com/max/2400/1*B6_f-_SxscJ9FCuIjOrQAQ.jpeg)*/
+}
+html{
+    background:linear-gradient(90deg,white,green,orange);
+}
+.phone{
+    width: 200px;
+}
+textarea{
+    width:200px;
+    height:100px;
+    color: rgb(0,0,100);
+  
+}
+::placeholder{
+    color:orange;
+}
+
+select{
+    color: orange;
+}
+html{
+    padding: 100px 0 0 0;
+}
